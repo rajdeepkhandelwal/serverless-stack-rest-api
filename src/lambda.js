@@ -1,5 +1,5 @@
 export async function handler(event,context) {
-  console.log(event,"asdasd",context)
+  console.log("dasd ",process.env.TABLE_NAME," qdasd",context)
   return {
     statusCode: 200,
     headers: { "Content-Type": "text/plain" },
